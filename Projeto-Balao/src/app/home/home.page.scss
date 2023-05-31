@@ -13,21 +13,21 @@
   padding: 0 10em;
 }
 
-#img-paisagem{
-  height: 100vh;
+#img{
   width: 100%;
+  height: 100vh;
 }
 
 ion-input{
   text-align: left;
-  font-size: 1.25em;
   margin: .625em;
+  font-size: 1.25em;
 }
 
-.texto{
+.text{
   text-align: left;
-  font-size: 1.25em;
   margin: .625em;
+  font-size: 1.25em;
 }
 
 .row{
@@ -36,37 +36,37 @@ ion-input{
   align-items: center;
 }
 
-.titulo{
+.title{
   font-size: 4em;
   font-weight: bold;
 }
 
-.button-1{
+.button-singup{
   width: 7vw;
   height: 5vh;
+  --background: rgb(30, 139, 116);
   margin-top: 2em;
   color: white;
-  --background: rgb(30, 139, 116);
   --border-radius: .75em;
 }
 
-.button-2{
+.button-facebook{
   width: 7vw;
-  color: white;
   --background: #3b5998;
+  color: white;
   --border-radius: .9em;
 }
 
-.button-3{
+.button-twitter{
   width: 7vw;
-  color: white;
   --background: #00acee;
+  color: white;
   --border-radius: .9em;
 }
 
-.button-4{
+.button-google{
   width: 7vw;
-  color: white;
   --background: #db4437;
+  color: white;
   --border-radius: .9em;
 }
